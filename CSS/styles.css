@@ -1,0 +1,27 @@
+/* Основний колір текста #757575 */
+/* Допоміжний колір текста #212121 */
+/* Акцент #2196F3 */
+/* Основний колір фона #FFFFFF */
+/* Допоміжний колір фона #F5F4FA */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --acceent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+    --
+}
+
+.page {
+    background-color: #fff;
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-nav:hover, .site-nav:focus,
+.contacts-nav:hover, .contacts-nav:focus {
+    color: var(--acceent-color);
+}
